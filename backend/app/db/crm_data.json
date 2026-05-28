@@ -1,0 +1,241 @@
+[
+  {
+    "customer_id": "CUST-1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-1",
+        "item": "Wireless Headphones",
+        "item_type": "electronics",
+        "days_since_purchase": 12,
+        "price": 120,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-2",
+    "name": "Sarah Lee",
+    "email": "sarah@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-2",
+        "item": "Gift Card",
+        "item_type": "gift_card",
+        "days_since_purchase": 5,
+        "price": 50,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-3",
+    "name": "Michael Smith",
+    "email": "michael@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-3",
+        "item": "Gaming Laptop",
+        "item_type": "electronics",
+        "days_since_purchase": 40,
+        "price": 1300,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-4",
+    "name": "Emily Johnson",
+    "email": "emily@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-4",
+        "item": "Running Shoes",
+        "item_type": "clothing",
+        "days_since_purchase": 18,
+        "price": 85,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-5",
+    "name": "David Wilson",
+    "email": "david@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-5",
+        "item": "Final Sale Jacket",
+        "item_type": "final_sale",
+        "days_since_purchase": 7,
+        "price": 140,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-6",
+    "name": "Sophia Brown",
+    "email": "sophia@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-6",
+        "item": "Bluetooth Speaker",
+        "item_type": "electronics",
+        "days_since_purchase": 9,
+        "price": 220,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-7",
+    "name": "James Taylor",
+    "email": "james@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-7",
+        "item": "Digital Subscription",
+        "item_type": "digital_subscription",
+        "days_since_purchase": 2,
+        "price": 20,
+        "status": "active"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-8",
+    "name": "Olivia Martinez",
+    "email": "olivia@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-8",
+        "item": "Smart Watch",
+        "item_type": "electronics",
+        "days_since_purchase": 14,
+        "price": 340,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-9",
+    "name": "Daniel Anderson",
+    "email": "daniel@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-9",
+        "item": "Customized Mug",
+        "item_type": "customized_product",
+        "days_since_purchase": 6,
+        "price": 25,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-10",
+    "name": "Emma Thomas",
+    "email": "emma@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-10",
+        "item": "Tablet",
+        "item_type": "electronics",
+        "days_since_purchase": 20,
+        "price": 499,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-11",
+    "name": "Noah White",
+    "email": "noah@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-11",
+        "item": "Office Chair",
+        "item_type": "furniture",
+        "days_since_purchase": 28,
+        "price": 180,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-12",
+    "name": "Ava Harris",
+    "email": "ava@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-12",
+        "item": "Premium Phone",
+        "item_type": "electronics",
+        "days_since_purchase": 15,
+        "price": 950,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-13",
+    "name": "Liam Clark",
+    "email": "liam@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-13",
+        "item": "USB Cable",
+        "item_type": "electronics",
+        "days_since_purchase": 3,
+        "price": 8,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-14",
+    "name": "Mia Lewis",
+    "email": "mia@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-14",
+        "item": "Fitness Tracker",
+        "item_type": "electronics",
+        "days_since_purchase": 11,
+        "price": 175,
+        "status": "delivered"
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-15",
+    "name": "Benjamin Walker",
+    "email": "benjamin@example.com",
+    "orders": [
+      {
+        "order_id": "ORD-15",
+        "item": "Winter Coat",
+        "item_type": "clothing",
+        "days_since_purchase": 35,
+        "price": 210,
+        "status": "delivered"
+      }
+    ]
+  }
+]

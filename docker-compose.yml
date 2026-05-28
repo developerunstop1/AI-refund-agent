@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: ai_refund_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/app:/app/app
+    env_file:
+      - .env.example
+    depends_on:
+      - db
+
+  frontend:
+    build: ./UI
+    container_name: ai_refund_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./UI/src:/app/src
+    depends_on:
+      - backend
+
+  db:
+    image: postgres:18
+    container_name: ai_refund_db
+    restart: always
+    environment:
+      POSTGRES_USER: refund_user
+      POSTGRES_PASSWORD: refund_pass
+      POSTGRES_DB: refund_db
+    ports:
+      - "5432:5432"

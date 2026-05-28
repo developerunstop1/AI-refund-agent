@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+.env
+.env.*
+
+# FastAPI
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Vite
+UI/node_modules/
+UI/dist/
+
+# Docker
+*.pid
+
+# Testing
+.cache/
+coverage.xml
+
+# OS Files
+Thumbs.db
+
+# Secrets
+.env.example.local
+.env.example
