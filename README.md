@@ -147,6 +147,8 @@ Create `.env.example`
 ```env
 GROQ_API_KEY=your_groq_api_key
 ```
+DATABASE_URL=postgresql://refund_user:refund_pass@db:5432/refund_db
+
 
 ---
 
